@@ -1,0 +1,2 @@
+include ':app', ':_01testplugin'
+rootProject.name='test6Month'
