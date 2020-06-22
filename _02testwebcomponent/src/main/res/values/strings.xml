@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">testWebComponent</string>
+    <string name="openad_webview_error">网络错误，点击重新加载</string>
+</resources>

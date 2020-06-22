@@ -1,0 +1,41 @@
+/* åè®®æŽ’ç‰ˆç›¸å…³æ ·å¼ */
+
+body {
+    background-color: #fff;
+    line-height: 1.75;
+    padding: .20rem;
+}
+
+a {
+    color: #fd4965;
+    text-decoration: none; 
+}
+
+h1 {
+    font-size: .22rem;
+    margin: 0 0 .15rem 0;
+    text-align: center;
+    padding-top: .15rem;
+}
+
+strong {
+    font-size: .15rem;
+}
+
+em {
+    font-weight: bold;
+}
+
+p,
+li {
+    margin: .11rem 0;
+    text-indent: .18rem;
+}
+
+section {
+    /* text-align: justify; */
+}
+
+section {
+    padding-top: .20rem;
+}
