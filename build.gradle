@@ -2,9 +2,13 @@
 
 buildscript {
     repositories {
+        maven { url "http://172.16.3.6:8081/repository/maven-public/" }
+        maven { url "https://maven.meitu.city/" }
+        maven { url "http://172.16.3.13:8083/repository/maven-public/" }
+
         google()
         jcenter()
-        
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.3'
@@ -15,10 +19,12 @@ buildscript {
 }
 
 allprojects {
-    repositories {
+    repositories {// 添加实验室 Maven 搜索地址
+        maven { url "http://172.16.3.6:8081/repository/maven-public/" }
+        maven { url "https://maven.meitu.city/" }
+        maven { url "http://172.16.3.13:8083/repository/maven-public/" }
         google()
         jcenter()
-        
     }
 }
 

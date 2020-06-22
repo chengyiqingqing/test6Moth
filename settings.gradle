@@ -1,2 +1,10 @@
-include ':app', ':_01testplugin'
+include ':app',
+        ':_00testReflect',
+        ':_01testlittletiger',
+        ':_02testwebcomponent',
+        ':_03testAppUpdater',
+        ':_04testProguardAndGameMiddleWare',
+        ':_05testLaunchIcon',
+        ':_06testplugin',
+        ':androidstub'
 rootProject.name='test6Month'
