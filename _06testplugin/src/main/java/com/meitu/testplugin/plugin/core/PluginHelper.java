@@ -66,9 +66,9 @@ public class PluginHelper {
         return FileUtils.readFileFromZip(path, PluginConstant.PLUGMETA_FILENAME);
     }
 
-    public static String readPluginMeta(AssetManager assetManager, String path) {
+    public static String readPluginMeta(AssetManager assetManager, String pluginFileName) {
         return FileUtils.readFileFromZip(assetManager,
-                PluginHelper.getDefaultPluginDir() + "/" + path,
+                PluginHelper.getDefaultPluginDir() + "/" + pluginFileName,
                 PluginConstant.PLUGMETA_FILENAME);
     }
 
@@ -94,7 +94,7 @@ public class PluginHelper {
             File f = new File(plugin.getFileAbsolutePath());
             FileUtils.delete(f);
         } catch (Throwable t) {
-            LogUtils.printStackTrace(t);
+            t.printStackTrace();
         }
     }
 
